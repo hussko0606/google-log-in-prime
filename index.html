@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Login</title>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+
+    <h1>Logga in med Google</h1>
+
+    <div id="g_id_onload"
+         data-client_id="858007257968-p23pla13slgi695a3pmpolr31b5br4d9.apps.googleusercontent.com"
+         data-callback="handleCredentialResponse">
+    </div>
+
+    <div class="g_id_signin"></div>
+
+    <div id="user-info"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
